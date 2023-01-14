@@ -1,0 +1,41 @@
+
+.services__section{
+    margin-top: 80px;
+}
+
+.services__title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.services__title h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.services__title p{
+    font-size: 1rem;
+    color: black;
+}
+
+.services__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 50px;
+}
+.services__frontend, .services__backend{
+    height: 350px;
+    width: 300px;
+    background-color: rgb(212, 210, 208);
+    border-radius: 10px;
+    padding: 50px;
+}
+.details{
+    padding-top: 40px;
+
+}
+.user__icons{
+    font-size: 35px;
+}

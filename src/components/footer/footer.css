@@ -1,0 +1,26 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(202, 191, 170);
+}
+
+.footer h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.media__icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icon{
+    font-size: 30px;
+    background-color: rgb(185, 160, 160);
+    padding: 4px;
+    border-radius: 50%;
+}

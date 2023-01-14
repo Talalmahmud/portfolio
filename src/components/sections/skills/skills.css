@@ -1,0 +1,34 @@
+.skills__section{
+    margin-top: 80px;
+}
+
+.skills__title{
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.skills__title h2{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.skills__title p{
+    font-size: 1rem;
+    color: black;
+}
+
+.skills__content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 80px;
+}
+.skills__frontend, .skills__backend{
+    height: 300px;
+    width: 400px;
+    background-color: rgb(212, 210, 208);
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+}

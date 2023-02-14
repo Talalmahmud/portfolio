@@ -7,6 +7,7 @@ import Skills from "../../sections/skills/Skills";
 import HeroSection from "../../sections/herosection/HeroSection";
 import Services from "../../sections/services/Services";
 import Contact from "../../sections/contact/Contact";
+import Portfolio from "../portfolio/Portfolio";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <HeroSection />
         <About />
         <Skills />
+        <Portfolio />
         <Services />
         <Contact />
       </Container>

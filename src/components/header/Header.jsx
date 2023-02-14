@@ -13,7 +13,7 @@ const Header = () => {
         <Container>
           <div className="navigation d-flex align-items-center justify-content-between ">
             <div className="nav__logo">
-              <HashLink to={"/"}>
+              <HashLink to={"#home"}>
                 <h2>Talal</h2>
               </HashLink>
             </div>

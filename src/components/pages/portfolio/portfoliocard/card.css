@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: center;
+  align-items: center;
   padding-top: 50px;
   gap: 40px;
 }
@@ -10,8 +11,9 @@
   height: 250px;
   width: 300px;
   border-radius: 10px;
-  background-color: rgb(184, 190, 190);
+  background-color: rgb(223, 233, 233);
   padding: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
 }
 
 .card__item img {

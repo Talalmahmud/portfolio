@@ -46,7 +46,7 @@ const Portfolio = () => {
     <>
       <Header />
       <Container>
-        <div className="portfolio">
+        <div className="portfolio" id="portfolio-section">
           <div className="portfolio__heading">
             <h2>Portfolio</h2>
             <p>Most recent project</p>
@@ -64,7 +64,7 @@ const Portfolio = () => {
           {mern && <Card data={mern} />}
         </div>
       </Container>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

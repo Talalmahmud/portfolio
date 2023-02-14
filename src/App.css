@@ -1,21 +1,20 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    background-color: rgb(235, 223, 202);
-    scroll-behavior: smooth;
+body {
+  background-color: rgb(243, 243, 252);
+  scroll-behavior: smooth;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-a:hover{
-    color: rgb(160, 29, 29);
+a:hover {
+  color: rgb(160, 29, 29);
 }
-

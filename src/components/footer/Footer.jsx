@@ -1,27 +1,32 @@
-import React from 'react'
-import { FiFacebook, FiGithub, FiLinkedin } from 'react-icons/fi'
-import { Link } from 'react-router-dom'
-import './footer.css'
+import React from "react";
+import { FiFacebook, FiGithub, FiLinkedin } from "react-icons/fi";
+import { Link } from "react-router-dom";
+import "./footer.css";
 
 const Footer = () => {
   return (
-    <div className='footer'>
+    <div className="footer">
       <h2>Talal</h2>
       <div className="media__icons">
         <div className="footer_icon">
-        <Link><FiGithub className='icon' /></Link>     
+          <Link>
+            <FiGithub className="icon" />
+          </Link>
         </div>
         <div className="footer__icon">
-        <Link><FiLinkedin className='icon' /></Link>
+          <Link>
+            <FiLinkedin className="icon" />
+          </Link>
         </div>
         <div className="footer__icon">
-        <Link><FiFacebook className='icon' /></Link>
+          <Link>
+            <FiFacebook className="icon" />
+          </Link>
         </div>
-                    
       </div>
-      <p>@ Copyrighter. All Rights Reserved</p>
+      <p>@ Copyrighter 2023. All Rights Reserved</p>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

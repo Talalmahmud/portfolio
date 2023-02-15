@@ -6,6 +6,10 @@
   padding-top: 50px;
   gap: 40px;
 }
+.card__item:hover {
+  background-color: aliceblue;
+  cursor: pointer;
+}
 
 .card__item {
   height: 250px;
@@ -13,7 +17,7 @@
   border-radius: 10px;
   background-color: rgb(223, 233, 233);
   padding: 10px;
-  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }
 
 .card__item img {

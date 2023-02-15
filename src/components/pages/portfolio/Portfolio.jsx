@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Button, Container } from "reactstrap";
-import Footer from "../../footer/Footer";
 import Header from "../../header/Header";
 import "./portfolio.css";
 import portfolioData from "./portfoliodata";

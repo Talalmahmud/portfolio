@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { Button, Container } from "reactstrap";
 import "./card.css";
 
@@ -13,13 +12,15 @@ const Card = ({ data }) => {
               {item.name}
               <div className="card__btn d-flex justify-content-start gap-4">
                 <Button>
-                  <a href={item.live} target="_blank">
+                  <a href={item.live} target="_blank" rel="noreferrer">
                     Live Demo
                   </a>
                 </Button>
 
                 <Button>
-                  <a href={item.code}>Code</a>
+                  <a href={item.code} target="_blank" rel="noreferrer">
+                    Code
+                  </a>
                 </Button>
               </div>
             </div>

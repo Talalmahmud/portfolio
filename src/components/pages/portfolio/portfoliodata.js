@@ -2,17 +2,32 @@ const portfolioData = [
   {
     name: "Todo App",
     type: "frontend",
-    live: "https://inspiring-sherbet-64a389.netlify.app/",
+    live: "https://notesomething.netlify.app/",
     code: "",
     image: "portfolioimages/todo.png",
   },
   {
     name: "Country Search",
     type: "frontend",
-    live: "https://friendly-pothos-8494ee.netlify.app/",
+    live: "https://searchccountry.netlify.app/",
     code: "",
     image: "portfolioimages/countryapp.png",
   },
+  {
+    name: "Admin Deahboard",
+    type: "frontend",
+    live: "https://dashboard-web2023.netlify.app/",
+    code: "",
+    image: "portfolioimages/dashboard.png",
+  },
+  {
+    name: "Gym",
+    type: "frontend",
+    live: "https://gym-web-2023.netlify.app/",
+    code: "",
+    image: "portfolioimages/gym.png",
+  },
+
   {
     name: "Store Api",
     type: "backend",

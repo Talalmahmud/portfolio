@@ -26,13 +26,22 @@
   display: flex;
   flex-direction: column;
 }
-
+.about__content p {
+  font-style: italic;
+  color: rgb(36, 13, 48);
+}
 .btn__download {
   padding: 4px;
   width: 9rem;
   color: white;
-  background-color: black;
-  box-shadow: 5px 2px 7px 5px rgb(197, 183, 183);
+  background: rgb(17, 107, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 107, 145, 1) 25%,
+    rgba(12, 123, 134, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-shadow: 5px 2px 7px 5px rgb(56, 99, 139);
 }
 
 @media screen and (max-width: 790px) {
@@ -45,6 +54,7 @@
   .about__details {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     gap: 20px;
   }
   .about__img {

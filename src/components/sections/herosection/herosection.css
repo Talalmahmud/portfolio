@@ -9,8 +9,15 @@
 }
 .icon {
   font-size: 30px;
-  background-color: rgb(248, 242, 242);
+  background: rgb(12, 98, 99);
+  background: linear-gradient(
+    90deg,
+    rgba(12, 98, 99, 1) 60%,
+    rgba(19, 145, 173, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   padding: 4px;
+  color: #d3bfbf;
   border-radius: 50%;
 }
 
@@ -23,7 +30,14 @@
 }
 .hero__content h2 {
   font-size: 2rem;
+  color: antiquewhite;
   font-weight: 500;
+}
+.hero__content h6 {
+  color: antiquewhite;
+}
+.hero__content p {
+  color: rgb(40, 35, 54);
 }
 
 .hero__img {

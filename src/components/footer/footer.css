@@ -5,7 +5,14 @@
   align-items: center;
   gap: 30px;
   padding: 20px;
-  background-color: rgb(192, 183, 168);
+  background: rgb(17, 107, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 107, 145, 1) 25%,
+    rgba(12, 123, 134, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 100%;
 }
 
 .footer h2 {

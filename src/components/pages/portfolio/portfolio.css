@@ -17,6 +17,15 @@
   display: flex;
   align-items: center;
   gap: 4px;
-
   justify-content: space-between;
+}
+
+.portfolio__btn button {
+  background: rgb(22, 140, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(22, 140, 163, 1) 25%,
+    rgba(12, 123, 134, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
 }

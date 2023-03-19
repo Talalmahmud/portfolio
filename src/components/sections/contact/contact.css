@@ -24,7 +24,13 @@
 .contact {
   padding: 10px 30px;
   width: 300px;
-  background-color: rgb(212, 210, 208);
+  background: rgb(22, 140, 163);
+  background: linear-gradient(
+    90deg,
+    rgba(22, 140, 163, 1) 25%,
+    rgba(12, 123, 134, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
   text-align: center;
   border-radius: 10px;
@@ -74,13 +80,21 @@
   margin-top: 10px;
   border-radius: 10px;
   padding: 4px 10px;
-  background-color: black;
+  background: rgb(17, 107, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(17, 107, 145, 1) 25%,
+    rgba(12, 123, 134, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
   color: #fff;
 }
 
 @media screen and (max-width: 990px) {
   .contact__section {
     align-items: center;
+    justify-content: center;
+
     flex-direction: column;
   }
   .contact__details {

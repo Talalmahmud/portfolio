@@ -14,7 +14,7 @@ const Header = () => {
           <div className="navigation d-flex align-items-center justify-content-between ">
             <div className="nav__logo">
               <HashLink to={"#home"}>
-                <h2>Talal</h2>
+                <h2 className="nav__logo">Talal</h2>
               </HashLink>
             </div>
 

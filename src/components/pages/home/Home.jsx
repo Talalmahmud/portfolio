@@ -8,11 +8,13 @@ import HeroSection from "../../sections/herosection/HeroSection";
 import Services from "../../sections/services/Services";
 import Contact from "../../sections/contact/Contact";
 import Portfolio from "../portfolio/Portfolio";
+import Floatnav from "../../floatnav/Floatnav";
 
 const Home = () => {
   return (
     <>
       <Header />
+      <Floatnav />
       <Container>
         <HeroSection />
         <About />

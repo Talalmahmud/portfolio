@@ -45,7 +45,7 @@ const Portfolio = () => {
     <>
       <Header />
       <Container>
-        <div className="portfolio" id="portfolio-section">
+        <div className="portfolio" id="portfolio">
           <div className="portfolio__heading">
             <h2 data-aos="fade-up">Portfolio</h2>
             <p data-aos="fade-up">Most recent project</p>

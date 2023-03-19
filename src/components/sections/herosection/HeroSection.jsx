@@ -32,8 +32,8 @@ const HeroSection = () => {
           <h2 data-aos="fade-up">Talal Mahmud</h2>
           <h6 data-aos="fade-down">________JavaScript developer________</h6>
           <p data-aos="fade-down">
-            I am JavaScript devloper. I like to code with JavaScript. JavaScript
-            full stack is my interested field.
+            I am <b>JavaScript devloper.</b> I like to code with JavaScript.
+            JavaScript full stack is my interested field.
           </p>
         </div>
         <div className="hero__img" data-aos="fade-left">

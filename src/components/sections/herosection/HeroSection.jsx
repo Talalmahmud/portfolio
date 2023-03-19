@@ -28,15 +28,15 @@ const HeroSection = () => {
             </Link>
           </div>
         </div>
-        <div className="hero__content">
-          <h2>Talal Mahmud</h2>
-          <h6>________JavaScript developer________</h6>
-          <p>
+        <div className="hero__content" data-aos="fade-right">
+          <h2 data-aos="fade-up">Talal Mahmud</h2>
+          <h6 data-aos="fade-down">________JavaScript developer________</h6>
+          <p data-aos="fade-down">
             I am JavaScript devloper. I like to code with JavaScript. JavaScript
             full stack is my interested field.
           </p>
         </div>
-        <div className="hero__img">
+        <div className="hero__img" data-aos="fade-left">
           <img src={heroImg} alt="img" />
         </div>
       </section>

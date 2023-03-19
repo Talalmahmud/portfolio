@@ -8,11 +8,11 @@ const Skills = () => {
     <>
       <section id="skills" className="skills__section  d-flex-coloumn">
         <div className="skills__title text-center">
-          <h2>Skills</h2>
-          <p>My skills level</p>
+          <h2 data-aos="fade-up">Skills</h2>
+          <p data-aos="fade-up">My skills level</p>
         </div>
         <div className="skills__content">
-          <div className="skills__frontend">
+          <div className="skills__frontend" data-aos="fade-right">
             <Row>
               <Col>
                 <div className="d-flex skills-hover align-items-center gap-2">
@@ -65,7 +65,7 @@ const Skills = () => {
             </Row>
           </div>
 
-          <div className="skills__backend">
+          <div className="skills__backend" data-aos="fade-left">
             <Row>
               <Col>
                 <div className="d-flex skills-hover align-items-center gap-2">

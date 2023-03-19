@@ -47,11 +47,11 @@ const Portfolio = () => {
       <Container>
         <div className="portfolio" id="portfolio-section">
           <div className="portfolio__heading">
-            <h2>Portfolio</h2>
-            <p>Most recent project</p>
+            <h2 data-aos="fade-up">Portfolio</h2>
+            <p data-aos="fade-up">Most recent project</p>
           </div>
 
-          <div className="portfolio__btn">
+          <div className="portfolio__btn" data-aos="fade-up">
             <Button onClick={handleAll}>All</Button>
             <Button onClick={handleFront}>Frontend</Button>
             <Button onClick={handleBackend}>Backend</Button>

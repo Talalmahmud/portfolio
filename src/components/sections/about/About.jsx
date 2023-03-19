@@ -10,15 +10,15 @@ const About = () => {
     <>
       <section id="about" className="about__section  d-flex-coloumn ">
         <div className="about__title text-center">
-          <h2>About Me</h2>
-          <p>My Self</p>
+          <h2 data-aos="fade-up">About Me</h2>
+          <p data-aos="fade-up">My Self</p>
         </div>
         <div className="about__details">
-          <div className="about__img">
+          <div className="about__img" data-aos="fade-left">
             <img src={aboutImg} alt="img" />
           </div>
           <div className="about__card"></div>
-          <div className="about__content ">
+          <div className="about__content " data-aos="fade-right">
             <p>
               I have completed my BSc in CSE from Dhaka Unversity of Engineering
               & Technology, Gazipur. I have good knowledge in HTML, CSS,

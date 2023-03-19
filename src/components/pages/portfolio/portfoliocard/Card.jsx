@@ -7,7 +7,7 @@ const Card = ({ data }) => {
       <Container>
         <div className="card__box">
           {data.map((item, index) => (
-            <div key={index} className="card__item">
+            <div key={index} className="card__item" data-aos="fade-right">
               <img src={item.image} alt="" />
               {item.name}
               <div className="card__btn d-flex justify-content-start gap-4">

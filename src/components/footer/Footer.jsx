@@ -6,7 +6,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer">
-      <h2>Talal</h2>
+      <h2 data-aos="fade-up">Talal</h2>
       <div className="media__icons">
         <div className="footer_icon">
           <Link>

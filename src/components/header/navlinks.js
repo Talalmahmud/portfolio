@@ -17,7 +17,7 @@ const navLinks = [
   },
   {
     display: "Portfolio",
-    url: "#portfolio-section",
+    url: "#portfolio",
   },
   {
     display: "Contact",

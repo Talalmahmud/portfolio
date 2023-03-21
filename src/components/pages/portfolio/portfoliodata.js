@@ -33,14 +33,14 @@ const portfolioData = [
     type: "backend",
     live: "",
     code: "https://github.com/Talalmahmud/node-js-project/tree/main/store-api",
-    image: "../../../assets/store.jpg",
+    image: "portfolioimages/backend.png",
   },
   {
     name: "Task Manager",
     type: "backend",
     live: "",
     code: "https://github.com/Talalmahmud/node-js-project/tree/main/task-manager",
-    image: "portfolioimages/taskmanager.jpg",
+    image: "portfolioimages/backend.png",
   },
   {
     name: "E-commerce",
@@ -54,7 +54,7 @@ const portfolioData = [
     type: "mern",
     live: "",
     code: "https://github.com/Talalmahmud/mern-project-all/tree/main/user%20management/backend",
-    image: "../../../assets/taskmanager.jpg",
+    image: "portfolioimages/taskmanager.jpg",
   },
   {
     name: "Social Media",

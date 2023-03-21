@@ -40,7 +40,7 @@ const portfolioData = [
     type: "backend",
     live: "",
     code: "https://github.com/Talalmahmud/node-js-project/tree/main/task-manager",
-    image: "../../../assets/taskmanager.jpg",
+    image: "portfolioimages/taskmanager.jpg",
   },
   {
     name: "E-commerce",
@@ -59,9 +59,9 @@ const portfolioData = [
   {
     name: "Social Media",
     type: "frontend",
-    live: "",
+    live: "https://social-media-2023.netlify.app/",
     code: "",
-    image: "../../../assets/socialmedia.png",
+    image: "portfolioimages/socialmedia.png",
   },
   //   {
   //     name: "Chat Api",

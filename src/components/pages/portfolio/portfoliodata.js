@@ -61,7 +61,7 @@ const portfolioData = [
     type: "frontend",
     live: "",
     code: "",
-    image: "../../../assets/socialmedia.jpg",
+    image: "../../../assets/socialmedia.png",
   },
   //   {
   //     name: "Chat Api",

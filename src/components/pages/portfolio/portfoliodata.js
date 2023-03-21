@@ -56,6 +56,13 @@ const portfolioData = [
     code: "https://github.com/Talalmahmud/mern-project-all/tree/main/user%20management/backend",
     image: "../../../assets/taskmanager.jpg",
   },
+  {
+    name: "Social Media",
+    type: "frontend",
+    live: "",
+    code: "",
+    image: "../../../assets/socialmedia.jpg",
+  },
   //   {
   //     name: "Chat Api",
   //     type: "mern",

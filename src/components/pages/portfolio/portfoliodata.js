@@ -45,8 +45,8 @@ const portfolioData = [
   {
     name: "E-commerce",
     type: "backend",
-    live: "",
-    code: "https://github.com/Talalmahmud/mern-project-all/tree/main/ecommerce/backend",
+    live: "https://dashboard-rho-sandy.vercel.app/",
+    code: "https://github.com/Talalmahmud/ecommerce.git",
     image: "portfolioimages/ecommerce.webp",
   },
   {

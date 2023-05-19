@@ -5,13 +5,7 @@
 }
 
 body {
-  background: rgb(22, 140, 163);
-  background: linear-gradient(
-    90deg,
-    rgba(22, 140, 163, 1) 25%,
-    rgba(12, 123, 134, 1) 100%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
   scroll-behavior: smooth;
 }
 

@@ -50,13 +50,6 @@ const portfolioData = [
     image: "portfolioimages/ecommerce.webp",
   },
   {
-    name: "User Mangement",
-    type: "mern",
-    live: "",
-    code: "https://github.com/Talalmahmud/mern-project-all/tree/main/user%20management/backend",
-    image: "portfolioimages/taskmanager.jpg",
-  },
-  {
     name: "Social Media",
     type: "frontend",
     live: "https://social-media-2023.netlify.app/",

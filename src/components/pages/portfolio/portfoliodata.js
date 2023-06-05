@@ -56,6 +56,14 @@ const portfolioData = [
     code: "",
     image: "portfolioimages/socialmedia.png",
   },
+  {
+    name: "Netflix Clone",
+    type: "frontend",
+    live: "https://next-ntflix-clone.vercel.app/",
+    code: "",
+    image: "portfolioimages/socialmedia.png",
+    code: "https://github.com/Talalmahmud/ecommerce.git",
+  },
   //   {
   //     name: "Chat Api",
   //     type: "mern",

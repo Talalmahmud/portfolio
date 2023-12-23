@@ -5,7 +5,14 @@
 }
 
 body {
-  background-image: linear-gradient(to right top, #526683, #4d7392, #4480a0, #368dab, #249bb3);
+  background-image: linear-gradient(
+    to right top,
+    #526683,
+    #4d7392,
+    #4480a0,
+    #368dab,
+    #249bb3
+  );
   scroll-behavior: smooth;
 }
 

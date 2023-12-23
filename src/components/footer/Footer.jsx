@@ -9,19 +9,19 @@ const Footer = () => {
       <h2 data-aos="fade-up">Talal</h2>
       <div className="media__icons">
         <div className="footer_icon">
-          <Link>
+          <a href={"https://github.com/Talalmahmud/Talalmahmud"}>
             <FiGithub className="icon" />
-          </Link>
+          </a>
         </div>
         <div className="footer__icon">
-          <Link>
+          <a href={"https://www.linkedin.com/in/talal-mahmud2"}>
             <FiLinkedin className="icon" />
-          </Link>
+          </a>
         </div>
         <div className="footer__icon">
-          <Link>
+          <a href={"https://www.facebook.com"}>
             <FiFacebook className="icon" />
-          </Link>
+          </a>
         </div>
       </div>
       <p>@ Copyrighter 2023. All Rights Reserved</p>

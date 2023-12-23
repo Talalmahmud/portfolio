@@ -29,3 +29,13 @@
     rgba(0, 212, 255, 1) 100%
   );
 }
+
+.portfolio__btn button:hover {
+  background: rgb(30, 74, 83);
+  background: linear-gradient(
+    90deg,
+    rgb(66, 172, 193) 25%,
+    rgb(21, 108, 116) 100%,
+    rgb(22, 80, 91) 100%
+  );
+}

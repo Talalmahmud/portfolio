@@ -22,9 +22,9 @@ const About = () => {
             <p>
               I have completed my BSc in CSE from Dhaka Unversity of Engineering
               & Technology, Gazipur. I have good knowledge in HTML, CSS,
-              JavaScript, React JS, Node JS, MongoDB etc.My career objective is
-              to achive a successful carrer through devoton, commitment and hard
-              work.
+              <b>Tailwind CSS</b>, JavaScript, React JS, <b>Next JS</b>, Node
+              JS, MongoDB etc.My career objective is to achive a successful
+              carrer through devoton, commitment and hard work.
             </p>
             <Link to={cv} target="_blank" download>
               <Button className="btn__download">My Resume</Button>

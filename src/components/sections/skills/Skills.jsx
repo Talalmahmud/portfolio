@@ -17,6 +17,22 @@ const Skills = () => {
               <Col>
                 <div className="d-flex skills-hover align-items-center gap-2">
                   <BsCheckCircleFill />
+                  <h5>Next Js</h5>
+                </div>
+                <p>Intermediate</p>
+              </Col>
+              <Col>
+                <div className="d-flex skills-hover align-items-center gap-2">
+                  <BsCheckCircleFill />
+                  <h5>Tailwind CSS</h5>
+                </div>
+                <p>Intermediate</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+                <div className="d-flex skills-hover align-items-center gap-2">
+                  <BsCheckCircleFill />
                   <h5>React Js</h5>
                 </div>
                 <p>Intermediate</p>
@@ -78,6 +94,23 @@ const Skills = () => {
                 <div className="d-flex skills-hover align-items-center gap-2">
                   <BsCheckCircleFill />
                   <h5>Express Js</h5>
+                </div>
+                <p>Intermediate</p>
+              </Col>
+            </Row>
+
+            <Row>
+              <Col>
+                <div className="d-flex skills-hover align-items-center gap-2">
+                  <BsCheckCircleFill />
+                  <h5>Next Auth</h5>
+                </div>
+                <p>Intermediate</p>
+              </Col>
+              <Col>
+                <div className="d-flex skills-hover align-items-center gap-2">
+                  <BsCheckCircleFill />
+                  <h5>Prisma</h5>
                 </div>
                 <p>Intermediate</p>
               </Col>

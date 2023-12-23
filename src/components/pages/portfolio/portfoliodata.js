@@ -83,13 +83,13 @@ const portfolioData = [
     code: "https://github.com/Talalmahmud/node-js-project/tree/main/task-manager",
     image: "portfolioimages/backend.png",
   },
-  {
-    name: "E-commerce",
-    type: "backend",
-    live: "https://dashboard-rho-sandy.vercel.app/",
-    code: "https://github.com/Talalmahmud/ecommerce.git",
-    image: "portfolioimages/ecommerce.webp",
-  },
+  // {
+  //   name: "E-commerce",
+  //   type: "backend",
+  //   live: "https://dashboard-rho-sandy.vercel.app/",
+  //   code: "https://github.com/Talalmahmud/ecommerce.git",
+  //   image: "portfolioimages/ecommerce.webp",
+  // },
 
   //   {
   //     name: "Chat Api",

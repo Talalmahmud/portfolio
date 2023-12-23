@@ -27,8 +27,7 @@
 
 .skills__frontend,
 .skills__backend {
-  height: 350px;
-  width: 370px;
+  width: 375px;
   background: rgb(22, 140, 163);
   background: linear-gradient(
     90deg,
@@ -38,7 +37,7 @@
   );
   box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius: 10px;
-  text-align: center;
+
   padding: 50px;
 }
 .skills__frontend:hover {

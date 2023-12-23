@@ -13,19 +13,19 @@ const HeroSection = () => {
       >
         <div className="hero__media ">
           <div className="header_icon">
-            <Link>
+            <a href={"https://github.com/Talalmahmud/Talalmahmud"}>
               <FiGithub className="icon" />
-            </Link>
+            </a>
           </div>
           <div className="header__icon">
-            <Link>
+            <a href={"https://www.linkedin.com/in/talal-mahmud2"}>
               <FiLinkedin className="icon" />
-            </Link>
+            </a>
           </div>
           <div className="header__icon">
-            <Link>
+            <a href={"https://www.facebook.com"}>
               <FiFacebook className="icon" />
-            </Link>
+            </a>
           </div>
         </div>
         <div className="hero__content" data-aos="fade-right">
@@ -33,7 +33,7 @@ const HeroSection = () => {
           <h6 data-aos="fade-down">________JavaScript developer________</h6>
           <p data-aos="fade-down">
             I am <b>JavaScript devloper.</b> I like to code with JavaScript.
-            JavaScript full stack is my interested field.
+            JavaScript front-end and backend is my interested field.
           </p>
         </div>
         <div className="hero__img" data-aos="fade-left">

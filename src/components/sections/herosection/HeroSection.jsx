@@ -1,6 +1,5 @@
 import React from "react";
 import { FiFacebook, FiGithub, FiLinkedin } from "react-icons/fi";
-import { Link } from "react-router-dom";
 import "./herosection.css";
 import heroImg from "../../../assets/talal.jpg";
 
